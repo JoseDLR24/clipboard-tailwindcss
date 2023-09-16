@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* custom css to add the background img without using tailwindcss */
+body {
+    background-img: url('../images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/* media query to change the background img in smaller screen */
+@media (width < 576px) {
+    body {
+        background-image: url('../images/bg-header-mobile.png');
+    }
+}
