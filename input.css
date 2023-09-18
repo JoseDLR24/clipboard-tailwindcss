@@ -4,7 +4,7 @@
 
 /* custom css to add the background img without using tailwindcss */
 body {
-    background-img: url('../images/bg-header-desktop.png');
+    background-image: url('../images/bg-header-desktop.png');
     background-repeat: no-repeat;
     background-size: contain;
 }
